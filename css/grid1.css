@@ -1,0 +1,25 @@
+.grid {
+    display: flex;
+}
+
+.gutters {
+    margin: -10px 0 10px -10px;
+}
+
+.gutters > .cell {
+    padding: 10px 0 0 10px;
+}
+
+.cell {
+    flex: 1 /* 1 1 0% (to take 0% of the width equal for all the elements) */;
+}
+
+.cell > div {
+    border: 1px solid salmon;
+    height: 100%;
+    padding: 10px;
+}
+
+.large {
+    flex-grow: 3;
+}
